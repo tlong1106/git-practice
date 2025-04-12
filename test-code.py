@@ -13,7 +13,9 @@ while bottlesOfBeer > 0:
         if bottlesOfBeer == 1:
             print(f"{bottlesOfBeer} bottle of beer on the wall!")
             print("\n")
+            # pause
             time.sleep(.5)
+            # starts at beginning of loop for instance of singular
             continue
         print(f"{bottlesOfBeer} bottles of beer on the wall!")
         print("\n")
